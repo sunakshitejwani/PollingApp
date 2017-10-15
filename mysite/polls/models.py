@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 # there are 2 models question and choice
-class Question(modesl.Model):
+class Question(models.Model):
 	question_text = models.CharField(max_length=200)
 	pub_date = models.DateTimeField('date published')
 
